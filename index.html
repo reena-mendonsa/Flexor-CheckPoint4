@@ -1,0 +1,679 @@
+<!--Flexor CheckPoint4 Assignment-->
+
+
+<!DOCTYPE  html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Flexor CheckPoint4</title>
+         <!--ViewPort-->
+         <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!--CSS-->
+        <link rel="stylesheet" href ="assets/stylesheet/style.css">
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+        <!--Iconify  icons-->
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        <!--Font Awesome Icons-->
+        <script src="https://kit.fontawesome.com/471db95236.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--Header-->
+        <header class="header">
+            <div class="container flex justify-content align-center">
+                <div class="brand">
+                    <a href="#">Flexor</a>
+                </div>
+                <label class="bars" for="toggle">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <input id="toggle" type="checkbox">
+                <nav class="nav ">
+                    <ul class="nav-links flex justify-content sm-column">
+                        <li><a  class="active" href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li class="sub-menuMain">
+                          <a href="#">
+                            <span>Drop Down</span>
+                            <i class="fas fa-chevron-down"></i>
+                          </a>
+                          <ul class="sub-menu">
+                              <li><a href="#">list1</a></li>
+                              <li><a href="#">list2</a></li>
+                              <li class="new-menu"><a href="#">list3
+                                <i class="fas fa-chevron-down"></i>
+                              </a>
+                                <ul class="sub-subMenu">
+                                    <li><a href="#">sub-list1</a></li>
+                                    <li><a href="#">sub-list2</a></li>
+                                    <li><a href="#">sub-list3</a></li>
+                                    <li><a href="#">sub-list4</a></li>
+                                </ul>
+                            </li>
+                              <li><a href="#">list4</a></li>
+                              <li><a href="#">list5</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!--Hero-->
+            <section class="hero sm-hero">
+                <div class="container">
+                    <div class="hero-cont sm-hero-cont">
+                        <h1 class="headingh1">Welcome to Flexor</h1>
+                        <p class="para1 hero-p">We are a group of talented designers making websites with bootstrap</p>
+                        <div class="button sm-button">
+                            <a class="btn btnColor" href ="#" >Get Started</a>
+                        </div>
+                        <div class="circle sm-circle"><i class="fas fa-arrow-right"></i></div>
+                    </div>
+                </div>
+                 
+            </section>
+            <!--Boxes Why choose us-->
+            <section class="box">
+                <div class="container boxes sm-boxes flex justify-content small-screenWrap">
+                    <div class="box-big sm-box-big flex32 sm-flex100">
+                        <article class="article">
+                            <h2 class="headingh2">Why choose flexor for your company website?</h2>
+                            <p class="para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.</p>
+                            <div class="flex flex-center">
+                              <a href="#" class="btn">Learn More <i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="box-small sm-box-small flex20 text-center sm-flex100">
+                        <article>
+                            <div class="icon">
+                                <span class="iconify" data-icon="bx-bx-receipt" data-inline="false"></span></div>
+                            <h3 class="headingh3">Corporis voluptates sit</h3>
+                            <p class="para2 color3">Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                        </article>
+                    </div>
+                    <div class="box-small sm-box-small flex20 text-center sm-flex100">
+                        <div class="icon"><span class="iconify" data-icon="bx:bx-cube-alt" data-inline="false"></span></div>
+                        <h3 class="headingh3">Ullamco laboris ladore pan</h3>
+                        <p class="para2 color3">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                    </div>
+                    <div class="box-small sm-box-small flex20 text-center sm-flex100">
+                        <div class="icon"><span class="iconify" data-icon="bx:bx-images" data-inline="false"></span></div>
+                        <h3 class="headingh3">Labore consequatur</h3>
+                        <p class="para2 color3">Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                    </div>
+                </div>
+            </section>
+            <!-- ======= About Section =======-->
+            <section class=" about sm-about padding">
+                <div class="container flex justify-content small-screenWrap">
+                    <div class="flex40 sm-flex100">
+                        <img class="full-width full-height abt-img" src="assets/media/about-img.jpg" alt="about-img">
+                        <!--<video controls poster="assets/media/about-img.jpg" class="full-width full-height">
+                            
+                            <source src="https://youtu.be/jDDaplaOz7Q" type="video/mp4">
+                        </video>-->
+                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/jDDaplaOz7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->  
+                    </div>
+                
+                <div class="flex60 col2 sm-flex100">
+                    <h4 class="headingh4 color1">About Us</h4>
+                    <h3 class="abt-heading color1">Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+                    <p class="para2 color2">Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
+                    <div class="flex justify-content margins">
+                        <div class="icon abt-circle flex flex-center">
+                        <span class="iconify" data-icon="bx:bx-fingerprint" data-inline="false"></span>
+                        </div>
+                        <div class="abt-title">
+                           <h4 class="headingh4 color2">Lorem Ipsum</h4>
+                           <p class="para2 color2 abt-p">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-content margins">
+                        <div class="icon abt-circle flex flex-center">
+                           <span class="iconify" data-icon="ant-design:gift-outlined" data-inline="false"></span>
+                        </div>
+                        <div class="abt-title">
+                           <h4 class="headingh4 color2">Nemo Enim</h4>
+                          <p class="para2 color2 abt-p">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-content margins">
+                        <div class="icon abt-circle flex flex-center">
+                           <span class="iconify" data-icon="bx:bx-atom" data-inline="false"></span>
+                        </div>
+                        <div class="abt-title">
+                          <h4 class="headingh4 color2">Dine Pad</h4>
+                          <p class="para2 color2 abt-p">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            </section>
+            
+            <!--========Client Logo==========-->
+            <section class="client-logo padding">
+                <div class="container flex justify-content align-center flex-wrap vscreen">
+                    <div class="flex12 vsm-flex48 logo">
+                        <img  class="full-width"src="assets/media/clients/client-2.png" alt="client">
+                    </div>
+                    <div class="flex12 vsm-flex48 logo">
+                        <img class="full-width" src="assets/media/clients/client-3.png" alt="client">
+                    </div>
+                    <div class="flex12 vsm-flex48 logo">
+                        <img class="full-width" src="assets/media/clients/client-4.png" alt="client">
+                    </div>
+                    <div class="flex12 vsm-flex48 logo">
+                        <img class="full-width" src="assets/media/clients/client-5.png" alt="client">
+                    </div>
+                    <div class="flex12 vsm-flex48 logo">
+                        <img class="full-width" src="assets/media/clients/client-6.png" alt="client">
+                    </div>
+                    <div class="flex12 vsm-flex48 logo">
+                        <img class="full-width" src="assets/media/clients/client-7.png" alt="client">
+                    </div>
+                    
+                </div>
+                <div class="flex flex-center">
+                   <div class="dot active-dot"></div>
+                   <div class="dot"></div>
+                </div>
+            </section>
+            <!--========Service==============-->
+            <section class="services padding">
+                <div class="container vpadding">
+                    <div class="service-title text-center">
+                        <h2 class="headingh2 color1">Services</h2>
+                        <p class="para2 color1">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    </div>
+                    <div class="columns flex justify-content flex-wrap text-center">
+                        <div class="flex32 margins service-col sm-flex48 vsm-flex100">
+                            <div class="service-icons flex flex-center">
+                                <span class="iconify" data-icon="fa-solid:desktop" data-inline="false"></span>
+                            </div>
+                            <h3 class="headingh3 color2">Lorem Ipsum</h3>
+                            <p class="para2 color2">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        </div>
+                        <div class="flex32 margins service-col sm-flex48 vsm-flex100">
+                            <div class="service-icons flex flex-center">
+                                <span class="iconify" data-icon="ant-design:bar-chart-outlined" data-inline="false"></span>
+                            </div>
+                            <h3 class="headingh3 color2">Dolor Sitema</h3>     
+                            <p class="para2 color2">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                        </div>
+                        <div class="flex32 margins service-col sm-flex48 vsm-flex100">
+                            <div class="service-icons flex flex-center">
+                                <span class="iconify" data-icon="cil:globe-alt" data-inline="false"></span>
+                            </div>
+                            <h3 class="headingh3 color2">Sed ut perspiciatis</h3>
+                            <p class="para2 color2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                        </div>
+                        <div class="flex32 margins service-col sm-flex48 vsm-flex100">
+                            <div class="service-icons flex flex-center">
+                                <span class="iconify" data-icon="heroicons-solid:photograph" data-inline="false"></span>
+                            </div>
+                            <h3 class="headingh3 color2">Magni Dolores</h3>
+                            <p class="para2 color2">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        </div>
+                        <div class="flex32 margins service-col sm-flex48 vsm-flex100">
+                            <div class="service-icons flex flex-center">
+                                <span class="iconify" data-icon="codicon:three-bars" data-inline="false"></span>
+                            </div>
+                            <h3 class="headingh3 color2">Nemo Enim</h3>
+                            <p class="para2 color2">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                        </div>
+                        <div class="flex32 margins service-col sm-flex48 vsm-flex100">
+                            <div class="service-icons flex flex-center">
+                                <span class="iconify" data-icon="clarity:date-line" data-inline="false"></span>
+                            </div>
+                            <h3 class="headingh3 color2">Eiusmod Tempor</h3>
+                            <p class="para2 color2">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=====Motives============-->
+            <section class="motives  padding">
+                <div class="container flex justify-content flex-wrap vpadding">
+                    <div class="flex49 values vsm-flex100 ">
+                        
+                        <img class="full-width" src="assets/media/values-1.jpg" alt="mission">
+                        <div class="value-box sm-value-box">
+                            <h4 class="headingh4 color2 text-center">Our Mission</h4>
+                            <p class="para2 color2">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                            <div class="read-more sm-read-more">
+                                <a href="#"><i class="fas fa-arrow-right"></i>Read More</a>
+                                
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                    <div class="flex49 values vsm-flex100">
+                        <img class="full-width" src="assets/media/values-2.jpg" alt="plan">
+                        <div class="value-box sm-value-box">
+                            <h4 class="headingh4 color2 text-center">Our Plan</h4>
+                            <p class="para2 color2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem.</p>
+                            <div class="read-more sm-read-more">
+                                <a href="#"><i class="fas fa-arrow-right"></i>Read More</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex49 values vsm-flex100">
+                        <img class="full-width" src="assets/media/values-3.jpg" alt="vision">
+                        <div class="value-box sm-value-box">
+                            <h4 class="headingh4 color2 text-center">Our Vision</h4>
+                            <p class="para2 color2">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores.</p>
+                            <div class="read-more sm-read-more">
+                                <a href="#"><i class="fas fa-arrow-right"></i>Read More</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex49 values vsm-flex100">
+                        <img class="full-width" src="assets/media/values-4.jpg" alt="care">
+                        <div class="value-box sm-value-box">
+                            <h4 class="headingh4 color2 text-center">Our Care</h4>
+                            <p class="para2 color2">Nostrum eum sed et autem dolorum perspiciatis. Magni porro quisquam laudantium voluptatem.</p>
+                            <div class="read-more sm-read-more">
+                                <a href="#"><i class="fas fa-arrow-right"></i>Read More</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==========Testimonials========-->
+            <section class="testimonials">
+                <div class="testimonial-container sm-container text-center">
+                    <div class="name">
+                      <img class="testimonial-img" src="assets/media/testimonials/testimonials-3.jpg">
+                      <h4 class="headingh4">Jeana Karlis</h4>
+                      <p class="para2 ">Store Owner</p>
+                    </div>
+                    <div class="quote flex">
+                     <cite>
+                        <span class="iconify" data-icon="ri:double-quotes-l" data-inline="false"></span>
+                        
+                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                        
+                        <span class="iconify" data-icon="ri:double-quotes-r" data-inline="false"></span>
+                     </cite>
+                    </div>
+                    <div class="flex flex-center">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot active-dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    </div>
+                </div>
+            </section>
+            <!--=============Portfolio==========-->
+            <section class="portfolio padding">
+                <div class="container text-center">
+                    <h2 class="headingh2 color1">Portfolio</h2>
+                    <p class="para2 color1">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <div class="portfolio-link">
+                        <a class="active-link" href="#">ALL</a>
+                        <a href="#">APP</a>
+                        <a href="#">CARD</a>
+                        <a href="#">WEB</a>
+                    </div>
+                    <div class="portfolio-img flex justify-content flex-wrap sm-flexWrap">
+                        <div class="flex33 images sm-flex48 vsm-flex100">
+                            <img class="full-width" src="assets/media/portfolio/portfolio-1.jpg" alt="portfolio1">
+                        </div>
+                        <div class="flex33 images sm-flex48 vsm-flex100">
+                            <img class="full-width" src="assets/media/portfolio/portfolio-2.jpg" alt="portfolio2">
+                        </div>
+                        <div class="flex33 images sm-flex48 vsm-flex100">
+                            <img class="full-width" src="assets/media/portfolio/portfolio-3.jpg" alt="portfolio3">
+                        </div>
+                        <div class="flex33 images sm-flex48 vsm-flex100">
+                            <img class="full-width" src="assets/media/portfolio/portfolio-4.jpg" alt="portfolio4">
+                        </div>
+                        <div class="flex33 images sm-flex48 vsm-flex100">
+                            <img class="full-width" src="assets/media/portfolio/portfolio-5.jpg" alt="portfolio5">
+                        </div>
+                        <div class="flex33 images sm-flex48 vsm-flex100">
+                            <img class="full-width" src="assets/media/portfolio/portfolio-6.jpg" alt="portfolio6">
+                        </div>
+                        <div class="flex33 images sm-flex48 vsm-flex100">
+                            <img class="full-width" src="assets/media/portfolio/portfolio-7.jpg" alt="portfolio7">
+                        </div>
+                        <div class="flex33 images sm-flex48 vsm-flex100">
+                            <img class="full-width" src="assets/media/portfolio/portfolio-8.jpg" alt="portfolio8">
+                        </div>
+                        <div class="flex33 images sm-flex48 vsm-flex100">
+                            <img class="full-width"src="assets/media/portfolio/portfolio-9.jpg" alt="portfolio9">
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!--===== Teams ==========-->
+            <section class="team padding">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="headingh2 color1">Team</h2>
+                        <p class="para2 color1">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    </div>
+                    <div class="flex flex-wrap justify-content members sm-flexWrap">
+                        <div class="flex24 team-desc sm-flex48 vsm-flex100">
+                            <img class="full-width" src="assets/media/team/team-1.jpg" alt="team member">
+                            <div class="text-center member-info">
+                               <h4 class="headingh4 color2"> Walter White</h4>
+                               <span class="para2 color3">Chief Executive Officer</span>
+                            </div>
+                        </div>
+                        <div class="flex24 team-desc sm-flex48 vsm-flex100">
+                            <img class="full-width" src="assets/media/team/team-2.jpg" alt="team member">
+                            <div class="text-center member-info">
+                                <h4 class="headingh4 color2"> Sarah Jhonson</h4>
+                                <span class="para2 color3">Product Manager</span>
+                             </div>
+                        </div>
+                        <div class="flex24 team-desc sm-flex48 vsm-flex100">
+                            <img class="full-width" src="assets/media/team/team-3.jpg" alt="team member">
+                            <div class="text-center member-info">
+                                <h4 class="headingh4 color2">William Anderson</h4>
+                                <span class="para2 color3">CTO</span>
+                             </div>
+                        </div>
+                        <div class="flex24 team-desc sm-flex48 vsm-flex100">
+                            <img class="full-width" src="assets/media/team/team-4.jpg" alt="team member">
+                            <div class="text-center member-info">
+                                <h4 class="headingh4 color2">Amanda Jepson</h4>
+                                <span class="para2 color3">Accountant</span>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--=============Pricing=====-->
+            <section class="pricing padding">
+                <div class="container text-center vpadding">
+                    <h2 class="headingh2 color1">Pricing</h2>
+                    <p class="para2 color1">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <div class="flex justify-content small-screenWrap">
+                        <div class="flex24 price-box sm-flex48 vsm-flex100">
+                            
+                             <h4 class="headingh4 color1">Free</h4>
+                            
+                             <span class="price"><sup>$</sup>0</span>
+                             <span class="period">/ month</span> 
+                             <ul class="price-menu">
+                                <li>Aida dere</li>
+                                <li>Nec feugiat nisl</li>
+                                <li>Nulla at volutpat dola</li>
+                                <li class="strike">Pharetra massa</li>
+                                <li class="strike">Massa ultricies mi</li>
+                          </ul>
+                          <div class="btn-buy">
+                            <a href="#" class="btn">Buy Now</a>
+                          </div>
+                        </div>
+
+                        <div class="flex24 price-box sm-flex48 vsm-flex100">
+                            
+                            <h4 class="headingh4 color1 bgcolor">Buisness</h4>
+                           
+                            <span class="price"><sup>$</sup>19</span>
+                            <span class="period">/ month</span> 
+                            <ul class="price-menu">
+                               <li>Aida dere</li>
+                               <li>Nec feugiat nisl</li>
+                               <li>Nulla at volutpat dola</li>
+                               <li>Pharetra massa</li>
+                               <li class="strike">Massa ultricies mi</li>
+                         </ul>
+                         <div class="btn-buy">
+                           <a href="#" class="btn">Buy Now</a>
+                         </div>
+                       </div>
+
+                       <div class="flex24 price-box sm-flex48 vsm-flex100">
+                            
+                        <h4 class="headingh4 color1">Developer</h4>
+                       
+                        <span class="price"><sup>$</sup>29</span>
+                        <span class="period">/ month</span> 
+                        <ul class="price-menu">
+                           <li>Aida dere</li>
+                           <li>Nec feugiat nisl</li>
+                           <li>Nulla at volutpat dola</li>
+                           <li>Pharetra massa</li>
+                           <li>Massa ultricies mi</li>
+                     </ul>
+                     <div class="btn-buy">
+                       <a href="#" class="btn">Buy Now</a>
+                     </div>
+                       </div>
+
+                       <div class="flex24 price-box sm-flex48 vsm-flex100">
+                            
+                        <h4 class="headingh4 color1">Ultimate</h4>
+                       
+                        <span class="price"><sup>$</sup>49</span>
+                        <span class="period">/ month</span> 
+                        <ul class="price-menu">
+                           <li>Aida dere</li>
+                           <li>Nec feugiat nisl</li>
+                           <li>Nulla at volutpat dola</li>
+                           <li>Pharetra massa</li>
+                           <li>Massa ultricies mi</li>
+                     </ul>
+                     <div class="btn-buy">
+                       <a href="#" class="btn">Buy Now</a>
+                     </div>
+                       </div>
+                       
+                    </div>
+                </div>
+            </section>
+
+            <!--================FAQ============-->
+            <section class="faq-sec padding">
+                <div class="container text-center vpadding">
+                    <h2 class="headingh2 color1">F.A.Q</h2>
+                    <p class="para2 color1">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <div class="help">
+                        <ul class="row">
+                            <li class="active-row">
+                                <div class="flex justify-content ">
+                                  <div class="faq-title">   
+                                     <i class="far fa-question-circle"></i>
+                                     <a class="active-help" href="#">Non consectetur a erat nam at lectus urna duis? </a>
+                                  </div>
+                                  <div class="active-up">
+                                      <i class="fas fa-chevron-up"></i>
+                                  </div>
+                                </div>
+                                <p class="para2 color2">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                            </li>
+                        
+
+                        
+                            <li class="active-row">
+                                <div class="flex justify-content ">
+                                  <div class="faq-title">   
+                                     <i class="far fa-question-circle"></i>
+                                     <a class="help-other" href="#">Non consectetur a erat nam at lectus urna duis? </a>
+                                  </div>
+                                  <div class="down">
+                                    <i class="fas fa-chevron-down"></i>
+                                  </div>
+                                </div>
+                               
+                            </li>
+                            <li class="active-row">
+                                <div class="flex justify-content ">
+                                  <div class="faq-title">   
+                                     <i class="far fa-question-circle"></i>
+                                     <a class="help-other" href="#">Feugiat scelerisque varius morbi enim nunc?  </a>
+                                  </div>
+                                  <div class="down">
+                                    <i class="fas fa-chevron-down"></i>
+                                  </div>
+                                </div>
+                               
+                            </li>
+                            <li class="active-row">
+                                <div class="flex justify-content ">
+                                  <div class="faq-title">   
+                                     <i class="far fa-question-circle"></i>
+                                     <a class="help-other" href="#">Dolor sit amet consectetur adipiscing elit?</a>
+                                  </div>
+                                  <div class="down">
+                                    <i class="fas fa-chevron-down"></i>
+                                  </div>
+                                </div>
+                               
+                            </li>
+                            <li class="active-row">
+                                <div class="flex justify-content ">
+                                  <div class="faq-title">   
+                                     <i class="far fa-question-circle"></i>
+                                     <a class="help-other" href="#">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? </a>
+                                  </div>
+                                  <div class="down">
+                                    <i class="fas fa-chevron-down"></i>
+                                  </div>
+                                </div>
+                               
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!--=============Contact===========-->
+            <section class="contact padding">
+                <div class="container text-center vpadding">
+                    <h2 class="headingh2 color1">Contact</h2>
+                    <p class="para2 color1">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <div class="contact-container text-center flex justify-content small-screenWrap">
+                        <div class="flex32 contact-col flex  sm-flex100">
+                            <div class="border flex flex-center">
+                            <span class="iconify" data-icon="bx:bx-map" data-inline="false"></span>
+                            </div>
+                            <div class="contact-details">
+                            <h3 class="headingh3 color1">Our Address</h3>
+                            <p class="para2 color2">A108 Adam Street, New York, NY 535022</p>
+                            </div>
+                        </div>
+                        <div class="flex32 contact-col flex sm-flex100">
+                            <div class="border flex flex-center">
+                               <span class="iconify" data-icon="carbon:email" data-inline="false"></span>
+                            </div>
+                            <div class="contact-details">
+                              <h3 class="headingh3 color1">Email Us</h3>
+                              <p class="para2 color2">info@example.com<br>contact@example.com</p>
+                            </div>
+                        </div>
+                        <div class="flex32 contact-col flex sm-flex100">
+                            <div class="border flex flex-center">
+                               <span class="iconify" data-icon="bx:bx-phone-call" data-inline="false"></span>
+                            </div>
+                            <div class="contact-details">
+                               <h3 class="headingh3 color1">Call Us</h3>
+                              <p class="para2 color2">+1 5589 55488 55<br>+1 6678 254445 41</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="form">
+                        <div class="contact-container form-box">    
+                            <div class="flex">
+                               <input type="text" name="firstname" placeholder="Your Name" class="text-box" required>
+                              <input type="email" name="email" placeholder="Your Email" class="text-box" required>
+                            </div>
+                            <input type="text" name="subj" placeholder="Subject" class="text-box2">
+                            <textarea class="text-area" name="message" rows="10" cols="40" class="text-area">Message</textarea>
+                            <input type="button" name="submit" value="Send Message" class="btn">
+                        </div>
+                    </form>
+                    
+                </div>
+
+            </section>
+        </main>
+           <!--============Footer===========-->
+           <footer>
+            <div class="footer1 padding">
+                <div class="container flex justify-content small-screenWrap vpadding">
+                    <div class="flex20 foot-col1 sm-flex48 vsm-flex100">
+                        <h2 class="headingh2 color1">Flexor</h2>
+                        <p class="para2 color1">A108 Adam Street <br>
+                            New York, NY 535022<br>
+                            United States <br><br>
+                            <strong class="bold">Phone:</strong> +1 5589 55488 55<br>
+                            <strong class="bold">Email:</strong> info@example.com<br>
+                          </p>
+                    </div>
+                    <div class="flex15 foot-col2 sm-flex48 vsm-flex100">
+                        <h4 class="headingh4 color2">Useful Links</h4>
+                        <ul class="foot-menu">
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">Services</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">Terms of service</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="flex20 foot-col2 sm-flex48 vsm-flex100">
+                         <h4 class="headingh4 color2">Our Services</h4>
+                        <ul class="foot-menu">
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">Web Design</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">Web Development</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">Product Management</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">Marketing</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex40 foot-details sm-flex48 vsm-flex100">
+                        <h4 class="headingh4 color2">Join Our Newsletter</h4>
+                        <p class="para2 color2">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <form class="footer-form">
+                            <input class="email"type="email" name="email">
+                            <input type="submit" name="submit" value="Subscribe" class="btn">  
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer2">
+                <div class="container flex justify-content sm-footer">
+
+                    <div class="copyrt">
+                       <small>&copy;Copyright <strong class="bold">Flexor</strong>.All Rights Reserved</small>
+                      <p class="para2 color2">Designed by <strong class="active">BootstrapMade</strong> </p>
+                    </div>
+                    <div class="social-links flex align-center sm-center">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-skype"></i>
+                        <i class="fab fa-linkedin-in"></i>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>    
