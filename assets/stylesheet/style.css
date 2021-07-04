@@ -313,12 +313,18 @@ a{
     width:150px;
     text-align: center;
     left:50%;
-    top:32px;
+    top:20px;/*remember to keep it close else hover wont work*/
     transform: translateX(-50%);
     display: none;
     z-index: 97;
 }
+.sub-menuMain i{
+    font-size:10px;
+}
 
+.new-menu a{
+    padding-left:15px;
+}
 .sub-menuMain{
     position: relative;
 }
@@ -342,10 +348,11 @@ a{
     position: absolute;
     background-color: var(--bgColor);
     box-shadow:0 3px 8px rgba(0,0,0,0.3);
-    width:100px;
+    width:140px;
     text-align: center;
-    left:50%;
-    top:32px;
+    /* left:50%; */
+    right:15px;
+    /* top:30px; */
     transform: translateX(-60%);
     display: none;
     z-index: 97;
@@ -411,7 +418,9 @@ a{
     align-items: center;
 
 }
-
+.button .btn:hover{
+    background-color: var(--primaryColor);
+}
 /************Boxes******************/
 .box{
     padding-bottom: 3rem;
@@ -491,7 +500,12 @@ a{
     border:1px solid var(--btnColor);
     margin-right:1rem;
 }
-
+.abt-circle:hover{
+    background-color: var(--primaryColor);
+}
+.abt-circle .iconify:hover{
+  color:#ffff;
+}
 .full-height{
     height:100%;
 }
@@ -541,6 +555,11 @@ a{
     left:43%;
     right:0;
     bottom:0;
+}
+.service-icons:hover{
+    background-color: #ffff;
+    color:var(--primaryColor);
+    border:1px solid var(--primaryColor);
 }
 
 .service-col{
@@ -701,8 +720,21 @@ a{
     box-shadow: 0 3px 3px 0 rgba(0,0,0,0.2);
     margin:2rem 0;
     border-radius: 8px;
+    position: relative;
+    overflow: hidden;
 }
-
+.price-box .advanced {
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: #ff5821;
+    color: #fff;
+}
 .price-box h4{
     padding:1rem;
     background-color: var(--bgColor);
@@ -878,6 +910,7 @@ sup {font-size:1.8rem; vertical-align:top;}
     font-weight: 500;
     padding-left:20px;
     padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 .form .btn{
@@ -953,6 +986,10 @@ sup {font-size:1.8rem; vertical-align:top;}
 
 .social-links .fa-facebook-f{
     padding:0.6rem 0.8rem;
+}
+
+.social-links :hover{
+    opacity: 0.8;
 }
 .copyrt{
     margin-top:1rem;
